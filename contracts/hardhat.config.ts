@@ -6,6 +6,8 @@ export default defineConfig({
   solidity: {
     version: "0.8.20",
     settings: {
+      optimizer: { enabled: true, runs: 200 },
+      viaIR: true,
       // 兼容教学中使用的 Ganache 节点。
       evmVersion: "paris",
     },

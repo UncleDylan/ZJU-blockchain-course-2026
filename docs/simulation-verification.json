@@ -1,0 +1,12 @@
+{
+  "result": "passed",
+  "runId": "1793262538112-20261029",
+  "verifiedBlock": 462,
+  "distinctUsers": 20,
+  "confirmedReceipts": 404,
+  "reservesMatch": true,
+  "walletBalancesMatch": true,
+  "gasAndCountsMatch": true,
+  "assetConservation": true,
+  "verifier": "read-only RPC verification at the recorded block"
+}

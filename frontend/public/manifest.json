@@ -1,25 +1,30 @@
 {
-  "short_name": "React App",
-  "name": "React DApp Starter",
+  "short_name": "MiniDEX",
+  "name": "MiniDEX · AMM 去中心化交易所",
+  "description": "本地测试链上的 AMM 交易所：领币、建池、流动性 NFT、兑换、多用户模拟与双交易所原子套利。",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any"
     },
     {
       "src": "logo192.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "purpose": "any maskable"
     },
     {
       "src": "logo512.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "any maskable"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#f1f3f7",
+  "background_color": "#f1f3f7",
+  "lang": "zh-CN"
 }

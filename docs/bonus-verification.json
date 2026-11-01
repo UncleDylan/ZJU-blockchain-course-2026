@@ -1,0 +1,14 @@
+{
+  "result": "passed",
+  "successfulTransaction": "0x4cbe50fe2cd9666e10bd5c7efd56c98d2596f20a1f1c74710e09d63e225673b8",
+  "failedTransaction": "0x62559b94fa9061a0b50f9071a098c32ed80657cbe144c81b46e05b25abf987f5",
+  "twoSwapsInOneReceipt": true,
+  "profitMatchesBalance": true,
+  "rollbackReason": "InsufficientProfit",
+  "rollbackAssetsAndPools": true,
+  "failedGasStillPaid": true,
+  "assetConservation": true,
+  "confirmedSuccessReceipts": 224,
+  "users": 20,
+  "marketTrades": 60
+}

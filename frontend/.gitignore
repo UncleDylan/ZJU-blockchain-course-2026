@@ -11,6 +11,9 @@
 
 # production
 /build
+/public/deployment.json
+/public/simulation.json
+/public/bonus.json
 
 # misc
 .DS_Store

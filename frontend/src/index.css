@@ -1,13 +1,83 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  color-scheme: light;
+  --bg: #f1f3f7;
+  --bg-deep: #e7eaf1;
+  --surface: #ffffff;
+  --surface-2: #f7f8fb;
+  --surface-3: #eef1f6;
+  --text: #080b12;
+  --text-2: #3d4553;
+  --muted: #727b8a;
+  --line: rgba(13, 20, 33, 0.08);
+  --line-strong: rgba(13, 20, 33, 0.16);
+  --accent: #2f6bff;
+  --accent-soft: #5b8bff;
+  --accent-ink: #16357f;
+  --accent-2: #0fb389;
+  --tint-blue: #edf2ff;
+  --tint-mint: #e8f8f2;
+  --ok: #0e9f6e;
+  --warn: #b7791f;
+  --bad: #d13b3b;
+  --radius: 20px;
+  --shadow-xs: 0 1px 2px rgba(9, 14, 26, 0.05);
+  --shadow-sm: 0 1px 2px rgba(9, 14, 26, 0.05), 0 10px 24px -20px rgba(9, 14, 26, 0.4);
+  --shadow-md: 0 1px 2px rgba(9, 14, 26, 0.05), 0 22px 44px -34px rgba(9, 14, 26, 0.45);
+  --font: "Inter var", "Segoe UI Variable", "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", system-ui, sans-serif;
+  --mono: "JetBrains Mono", "SFMono-Regular", ui-monospace, "Cascadia Mono", "Consolas", "Liberation Mono", monospace;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* { box-sizing: border-box; }
+
+html { min-height: 100%; background: var(--bg); }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 14px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
+
+/* Atmosphere: two soft colour washes at the top, an almost invisible grid, and a light vignette. */
+body::before,
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+body::before {
+  background:
+    radial-gradient(820px 520px at 2% -12%, rgba(47, 107, 255, 0.12), transparent 62%),
+    radial-gradient(700px 460px at 100% -6%, rgba(15, 179, 137, 0.09), transparent 64%),
+    radial-gradient(1200px 700px at 50% 112%, rgba(47, 107, 255, 0.05), transparent 70%);
+}
+
+body::after {
+  background-image:
+    linear-gradient(rgba(13, 20, 33, 0.028) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(13, 20, 33, 0.028) 1px, transparent 1px);
+  background-size: 56px 56px;
+  -webkit-mask-image: radial-gradient(120% 78% at 50% 0%, #000 8%, transparent 72%);
+  mask-image: radial-gradient(120% 78% at 50% 0%, #000 8%, transparent 72%);
+}
+
+#root { position: relative; z-index: 1; min-height: 100vh; }
+
+::selection { background: rgba(47, 107, 255, 0.16); color: var(--text); }
+
+:focus-visible { outline: 2px solid rgba(47, 107, 255, 0.55); outline-offset: 2px; border-radius: 8px; }
+
+* { scrollbar-width: thin; scrollbar-color: rgba(13, 20, 33, 0.2) transparent; }
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(13, 20, 33, 0.16); border-radius: 999px; border: 3px solid transparent; background-clip: content-box; }
+::-webkit-scrollbar-thumb:hover { background: rgba(13, 20, 33, 0.28); background-clip: content-box; }

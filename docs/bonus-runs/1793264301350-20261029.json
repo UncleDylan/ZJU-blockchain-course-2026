@@ -1,0 +1,2563 @@
+{
+  "type": "minidex-bonus",
+  "version": 1,
+  "status": "passed",
+  "startedAt": "2026-10-29T08:58:21.350Z",
+  "completedAt": "2026-10-29T08:58:23.136Z",
+  "seed": 20261029,
+  "rounds": 3,
+  "chainId": 31337,
+  "dexes": [
+    {
+      "name": "DEX 1",
+      "address": "0x8198f5d8F8CfFE8f9C413d98a0A55aEB8ab9FbB7"
+    },
+    {
+      "name": "DEX 2",
+      "address": "0x0355B7B8cb128fA5692729Ab3AAa199C1753f726"
+    }
+  ],
+  "arbitrageAddress": "0x202CCe504e04bEd6fC0521238dDf04Bc9E8E15aB",
+  "users": [
+    {
+      "address": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "dex1Trades": 1,
+      "dex2Trades": 2
+    },
+    {
+      "address": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "dex1Trades": 2,
+      "dex2Trades": 1
+    },
+    {
+      "address": "0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC",
+      "dex1Trades": 3,
+      "dex2Trades": 0
+    },
+    {
+      "address": "0x90F79bf6EB2c4f870365E785982E1f101E93b906",
+      "dex1Trades": 2,
+      "dex2Trades": 1
+    },
+    {
+      "address": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
+      "dex1Trades": 2,
+      "dex2Trades": 1
+    },
+    {
+      "address": "0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc",
+      "dex1Trades": 1,
+      "dex2Trades": 2
+    },
+    {
+      "address": "0x976EA74026E726554dB657fA54763abd0C3a0aa9",
+      "dex1Trades": 0,
+      "dex2Trades": 3
+    },
+    {
+      "address": "0x14dC79964da2C08b23698B3D3cc7Ca32193d9955",
+      "dex1Trades": 0,
+      "dex2Trades": 3
+    },
+    {
+      "address": "0x23618e81E3f5cdF7f54C3d65f7FBc0aBf5B21E8f",
+      "dex1Trades": 1,
+      "dex2Trades": 2
+    },
+    {
+      "address": "0xa0Ee7A142d267C1f36714E4a8F75612F20a79720",
+      "dex1Trades": 1,
+      "dex2Trades": 2
+    },
+    {
+      "address": "0xBcd4042DE499D14e55001CcbB24a551F3b954096",
+      "dex1Trades": 2,
+      "dex2Trades": 1
+    },
+    {
+      "address": "0x71bE63f3384f5fb98995898A86B02Fb2426c5788",
+      "dex1Trades": 2,
+      "dex2Trades": 1
+    },
+    {
+      "address": "0xFABB0ac9d68B0B445fB7357272Ff202C5651694a",
+      "dex1Trades": 2,
+      "dex2Trades": 1
+    },
+    {
+      "address": "0x1CBd3b2770909D4e10f157cABC84C7264073C9Ec",
+      "dex1Trades": 3,
+      "dex2Trades": 0
+    },
+    {
+      "address": "0xdF3e18d64BC6A983f673Ab319CCaE4f1a57C7097",
+      "dex1Trades": 3,
+      "dex2Trades": 0
+    },
+    {
+      "address": "0xcd3B766CCDd6AE721141F452C550Ca635964ce71",
+      "dex1Trades": 2,
+      "dex2Trades": 1
+    },
+    {
+      "address": "0x2546BcD3c84621e976D8185a91A922aE77ECEc30",
+      "dex1Trades": 2,
+      "dex2Trades": 1
+    },
+    {
+      "address": "0xbDA5747bFD65F08deb54cb465eB87D40e51B197E",
+      "dex1Trades": 1,
+      "dex2Trades": 2
+    },
+    {
+      "address": "0xdD2FD4581271e230360230F9337D5c0430Bf44C0",
+      "dex1Trades": 0,
+      "dex2Trades": 3
+    },
+    {
+      "address": "0x8626f6940E2eb28930eFb4CeF49B2d1F2C9C1199",
+      "dex1Trades": 1,
+      "dex2Trades": 2
+    }
+  ],
+  "marketTrades": 60,
+  "orderFlowBias": {
+    "dex1AToB": 0.75,
+    "dex2AToB": 0.25
+  },
+  "tokens": [
+    {
+      "address": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB",
+      "symbol": "TKB",
+      "decimals": 18
+    },
+    {
+      "address": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "symbol": "TKA",
+      "decimals": 18
+    }
+  ],
+  "snapshots": [
+    {
+      "stage": "initial",
+      "pools": [
+        {
+          "name": "DEX 1",
+          "address": "0x8198f5d8F8CfFE8f9C413d98a0A55aEB8ab9FbB7",
+          "poolId": 1,
+          "reserveA": "400000000000000000000",
+          "reserveB": "400000000000000000000",
+          "priceBPerA": "1.0"
+        },
+        {
+          "name": "DEX 2",
+          "address": "0x0355B7B8cb128fA5692729Ab3AAa199C1753f726",
+          "poolId": 1,
+          "reserveA": "400000000000000000000",
+          "reserveB": "400000000000000000000",
+          "priceBPerA": "1.0"
+        }
+      ]
+    },
+    {
+      "stage": "round 1",
+      "pools": [
+        {
+          "name": "DEX 1",
+          "address": "0x8198f5d8F8CfFE8f9C413d98a0A55aEB8ab9FbB7",
+          "poolId": 1,
+          "reserveA": "413335995918500140071",
+          "reserveB": "387185930214201168917",
+          "priceBPerA": "0.936734119547973916"
+        },
+        {
+          "name": "DEX 2",
+          "address": "0x0355B7B8cb128fA5692729Ab3AAa199C1753f726",
+          "poolId": 1,
+          "reserveA": "369711291381071222106",
+          "reserveB": "432930476241767317195",
+          "priceBPerA": "1.170996088933444032"
+        }
+      ]
+    },
+    {
+      "stage": "round 2",
+      "pools": [
+        {
+          "name": "DEX 1",
+          "address": "0x8198f5d8F8CfFE8f9C413d98a0A55aEB8ab9FbB7",
+          "poolId": 1,
+          "reserveA": "451372408677741464299",
+          "reserveB": "354675061047957574367",
+          "priceBPerA": "0.785770362187066646"
+        },
+        {
+          "name": "DEX 2",
+          "address": "0x0355B7B8cb128fA5692729Ab3AAa199C1753f726",
+          "poolId": 1,
+          "reserveA": "340685382476624934002",
+          "reserveB": "469930476241767317195",
+          "priceBPerA": "1.37936788724420876"
+        }
+      ]
+    },
+    {
+      "stage": "round 3",
+      "pools": [
+        {
+          "name": "DEX 1",
+          "address": "0x8198f5d8F8CfFE8f9C413d98a0A55aEB8ab9FbB7",
+          "poolId": 1,
+          "reserveA": "464823134573832077601",
+          "reserveB": "344537113419031495438",
+          "priceBPerA": "0.741221956895317865"
+        },
+        {
+          "name": "DEX 2",
+          "address": "0x0355B7B8cb128fA5692729Ab3AAa199C1753f726",
+          "poolId": 1,
+          "reserveA": "335348275778654898788",
+          "reserveB": "477549384015622257559",
+          "priceBPerA": "1.424040075669947837"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "startOnFirst": true,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "40000000000000000000",
+      "intermediateAmount": "48221439576229587148",
+      "returnedAmount": "59878806425488607914",
+      "profit": "19878806425488607914"
+    },
+    {
+      "startOnFirst": false,
+      "tokenIn": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB",
+      "amountIn": "40000000000000000000",
+      "intermediateAmount": "50754888860714115381",
+      "returnedAmount": "59526461544105865168",
+      "profit": "19526461544105865168"
+    },
+    {
+      "startOnFirst": true,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "20000000000000000000",
+      "intermediateAmount": "25429781355698820839",
+      "returnedAmount": "33566634749179000185",
+      "profit": "13566634749179000185"
+    },
+    {
+      "startOnFirst": false,
+      "tokenIn": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB",
+      "amountIn": "20000000000000000000",
+      "intermediateAmount": "26801713893885808633",
+      "returnedAmount": "33455624848790397365",
+      "profit": "13455624848790397365"
+    },
+    {
+      "startOnFirst": true,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "10000000000000000000",
+      "intermediateAmount": "13072478594310533789",
+      "returnedAmount": "17865544462225219920",
+      "profit": "7865544462225219920"
+    },
+    {
+      "startOnFirst": false,
+      "tokenIn": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB",
+      "amountIn": "10000000000000000000",
+      "intermediateAmount": "13787765353281238510",
+      "returnedAmount": "17834048783562663312",
+      "profit": "7834048783562663312"
+    },
+    {
+      "startOnFirst": true,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "5000000000000000000",
+      "intermediateAmount": "6629461304133852677",
+      "returnedAmount": "9230370025627264633",
+      "profit": "4230370025627264633"
+    },
+    {
+      "startOnFirst": false,
+      "tokenIn": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB",
+      "amountIn": "5000000000000000000",
+      "intermediateAmount": "6994860181894629042",
+      "returnedAmount": "9221955553028350196",
+      "profit": "4221955553028350196"
+    },
+    {
+      "startOnFirst": true,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "2000000000000000000",
+      "intermediateAmount": "2674672762267811246",
+      "returnedAmount": "3767456324221811905",
+      "profit": "1767456324221811905"
+    },
+    {
+      "startOnFirst": false,
+      "tokenIn": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB",
+      "amountIn": "2000000000000000000",
+      "intermediateAmount": "2822751668255042647",
+      "returnedAmount": "3766053770492747095",
+      "profit": "1766053770492747095"
+    },
+    {
+      "startOnFirst": true,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "1000000000000000000",
+      "intermediateAmount": "1341195115540177031",
+      "returnedAmount": "1896623229994823003",
+      "profit": "896623229994823003"
+    },
+    {
+      "startOnFirst": false,
+      "tokenIn": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB",
+      "amountIn": "1000000000000000000",
+      "intermediateAmount": "1415559456755689775",
+      "returnedAmount": "1896267708814090279",
+      "profit": "896267708814090279"
+    },
+    {
+      "startOnFirst": true,
+      "tokenIn": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB",
+      "amountIn": "1000000000000000000",
+      "intermediateAmount": "737416604786819065",
+      "returnedAmount": "515487052645600533",
+      "profit": "0"
+    },
+    {
+      "startOnFirst": true,
+      "tokenIn": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB",
+      "amountIn": "2000000000000000000",
+      "intermediateAmount": "1471683349379908767",
+      "returnedAmount": "1027199977094047412",
+      "profit": "0"
+    },
+    {
+      "startOnFirst": true,
+      "tokenIn": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB",
+      "amountIn": "5000000000000000000",
+      "intermediateAmount": "3655784955600758773",
+      "returnedAmount": "2540103961826874268",
+      "profit": "0"
+    },
+    {
+      "startOnFirst": true,
+      "tokenIn": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB",
+      "amountIn": "10000000000000000000",
+      "intermediateAmount": "7234803476825723641",
+      "returnedAmount": "4989867036651462270",
+      "profit": "0"
+    },
+    {
+      "startOnFirst": true,
+      "tokenIn": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB",
+      "amountIn": "20000000000000000000",
+      "intermediateAmount": "14172014230445031427",
+      "returnedAmount": "9636986713049229163",
+      "profit": "0"
+    },
+    {
+      "startOnFirst": true,
+      "tokenIn": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB",
+      "amountIn": "40000000000000000000",
+      "intermediateAmount": "27224201995006545067",
+      "returnedAmount": "18035162024841122780",
+      "profit": "0"
+    },
+    {
+      "startOnFirst": false,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "1000000000000000000",
+      "intermediateAmount": "698662119533232654",
+      "returnedAmount": "515537547530117858",
+      "profit": "0"
+    },
+    {
+      "startOnFirst": false,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "2000000000000000000",
+      "intermediateAmount": "1394419116583733107",
+      "returnedAmount": "1027400500048230798",
+      "profit": "0"
+    },
+    {
+      "startOnFirst": false,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "5000000000000000000",
+      "intermediateAmount": "3464439447495356735",
+      "returnedAmount": "2541330502519879823",
+      "profit": "0"
+    },
+    {
+      "startOnFirst": false,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "10000000000000000000",
+      "intermediateAmount": "6858029483820588840",
+      "returnedAmount": "4994602464466428093",
+      "profit": "0"
+    },
+    {
+      "startOnFirst": false,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "20000000000000000000",
+      "intermediateAmount": "13441180523394640111",
+      "returnedAmount": "9654665310369999586",
+      "profit": "0"
+    },
+    {
+      "startOnFirst": false,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "40000000000000000000",
+      "intermediateAmount": "25846404651903143894",
+      "returnedAmount": "18097177519936484929",
+      "profit": "0"
+    }
+  ],
+  "execution": {
+    "params": {
+      "startOnFirst": true,
+      "firstPoolId": 1,
+      "secondPoolId": 1,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "40000000000000000000",
+      "minIntermediate": "47980332378348439212",
+      "minProfit": "19779412393361164874",
+      "deadline": 1793265711
+    },
+    "trader": "0x8626f6940E2eb28930eFb4CeF49B2d1F2C9C1199",
+    "transactionHash": "0x4cbe50fe2cd9666e10bd5c7efd56c98d2596f20a1f1c74710e09d63e225673b8",
+    "blockNumber": 921,
+    "swapEvents": 2,
+    "before": [
+      {
+        "name": "DEX 1",
+        "address": "0x8198f5d8F8CfFE8f9C413d98a0A55aEB8ab9FbB7",
+        "poolId": 1,
+        "reserveA": "464823134573832077601",
+        "reserveB": "344537113419031495438",
+        "priceBPerA": "0.741221956895317865"
+      },
+      {
+        "name": "DEX 2",
+        "address": "0x0355B7B8cb128fA5692729Ab3AAa199C1753f726",
+        "poolId": 1,
+        "reserveA": "335348275778654898788",
+        "reserveB": "477549384015622257559",
+        "priceBPerA": "1.424040075669947837"
+      }
+    ],
+    "after": [
+      {
+        "name": "DEX 1",
+        "address": "0x8198f5d8F8CfFE8f9C413d98a0A55aEB8ab9FbB7",
+        "poolId": 1,
+        "reserveA": "416601694997602490453",
+        "reserveB": "384537113419031495438",
+        "priceBPerA": "0.923033002593147096"
+      },
+      {
+        "name": "DEX 2",
+        "address": "0x0355B7B8cb128fA5692729Ab3AAa199C1753f726",
+        "poolId": 1,
+        "reserveA": "383569715354884485936",
+        "reserveB": "417670577590133649645",
+        "priceBPerA": "1.088903948539572608"
+      }
+    ],
+    "walletBefore": "956618675258233392856",
+    "walletAfter": "976497481683722000770",
+    "intermediateAmount": "48221439576229587148",
+    "returnedAmount": "59878806425488607914",
+    "profit": "19878806425488607914",
+    "gasCostWei": "2417520"
+  },
+  "rollback": {
+    "transactionHash": "0x62559b94fa9061a0b50f9071a098c32ed80657cbe144c81b46e05b25abf987f5",
+    "blockNumber": 922,
+    "status": 0,
+    "reason": "InsufficientProfit",
+    "logs": 0,
+    "poolsUnchanged": true,
+    "tokenBalancesUnchanged": true,
+    "allowanceUnchanged": true,
+    "gasCostWei": "2927760"
+  },
+  "journal": [
+    {
+      "action": "claim",
+      "user": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "transactionHash": "0x12a24d199d69242d25322a4fc10edb4b5236125880ea5945d21d93cd99b2f1eb",
+      "blockNumber": 698,
+      "gasUsed": "91477",
+      "gasCostWei": "914770",
+      "token": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB"
+    },
+    {
+      "action": "approve",
+      "user": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "transactionHash": "0x206dbd8443539d6fcf3b1e83bc4beac313644c6d5e23afbc80dc3cf06b46b477",
+      "blockNumber": 699,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "approve",
+      "user": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "transactionHash": "0x9aa0ee6291a3d1532da46063b4a39bc2ace234b57368c29b0aeed3e3da25ed34",
+      "blockNumber": 700,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "claim",
+      "user": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "transactionHash": "0x6ddd0b2e0e2370efe5630806438074c1ccef8e1c7d67b6f38e583af5661ee58e",
+      "blockNumber": 701,
+      "gasUsed": "91477",
+      "gasCostWei": "914770",
+      "token": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02"
+    },
+    {
+      "action": "approve",
+      "user": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "transactionHash": "0xa2d120f575aaad289b1a17c142764337a438d8ea8004066d8001f0ad8e476355",
+      "blockNumber": 702,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "approve",
+      "user": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "transactionHash": "0x00bcfe439fd6b5fc871bde89366fbe0392ad9be1946e56cfbce8c45b84b4b34c",
+      "blockNumber": 703,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "claim",
+      "user": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "transactionHash": "0xfd110caeabc3d41cb92fcde4bf2ff0992170230182ce428198237f8df4d1482c",
+      "blockNumber": 704,
+      "gasUsed": "74377",
+      "gasCostWei": "743770",
+      "token": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB"
+    },
+    {
+      "action": "approve",
+      "user": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "transactionHash": "0x081cbb5281cd35175472ea2785222197793a3bfa644f8f653756abf1dc62b95c",
+      "blockNumber": 705,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "approve",
+      "user": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "transactionHash": "0x2722952ff269265412206ec56bcc26a5d3cb20a9f2e3a542c5a1d398d7c15b4c",
+      "blockNumber": 706,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "claim",
+      "user": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "transactionHash": "0xf63a345eb7fda120ef27e22ed17498c526041c34f59c916a9872aac4b344577c",
+      "blockNumber": 707,
+      "gasUsed": "74377",
+      "gasCostWei": "743770",
+      "token": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02"
+    },
+    {
+      "action": "approve",
+      "user": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "transactionHash": "0xe2a3c12fc66bc73508dbbeb10d77384d2e5c592e3333709cf468044446080c66",
+      "blockNumber": 708,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "approve",
+      "user": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "transactionHash": "0xe8ac622d2ef7b05513b21dfd3e1f020b9665a8d7ad09d4d0b63686b7bacd0891",
+      "blockNumber": 709,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "claim",
+      "user": "0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC",
+      "transactionHash": "0xcfa73372a4f4e7ce1fb3329709241a5cf430beea5e5cbf3c5f7b89fb398e286e",
+      "blockNumber": 710,
+      "gasUsed": "74377",
+      "gasCostWei": "743770",
+      "token": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB"
+    },
+    {
+      "action": "approve",
+      "user": "0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC",
+      "transactionHash": "0x5432f282f72e3bfa69c393e0ebc26f6eb787cff5e8074ee9d70a43413e2f0bbf",
+      "blockNumber": 711,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "approve",
+      "user": "0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC",
+      "transactionHash": "0x04809aa9965ea96e1a914b658c50d85aa85328005ee2cf57540a7a92c5cfa509",
+      "blockNumber": 712,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "claim",
+      "user": "0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC",
+      "transactionHash": "0x4c07d89e1fa96907e770350e78a624fc859c89136e4cede86292892f5e8c1368",
+      "blockNumber": 713,
+      "gasUsed": "74377",
+      "gasCostWei": "743770",
+      "token": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02"
+    },
+    {
+      "action": "approve",
+      "user": "0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC",
+      "transactionHash": "0x0360e8fc6dd2c979dada1c00898ee6e8d2206d8000dcd0b26d0036dfc916f8ec",
+      "blockNumber": 714,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "approve",
+      "user": "0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC",
+      "transactionHash": "0xfa3e530075a1c7cf70f00eae1dbc7096135273147756cbd52ea652b7ff08e9fe",
+      "blockNumber": 715,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "claim",
+      "user": "0x90F79bf6EB2c4f870365E785982E1f101E93b906",
+      "transactionHash": "0x0c6f3ce803800afad4f16c7a2a25f61374f5317ab1378fba50f10128dfab3f65",
+      "blockNumber": 716,
+      "gasUsed": "74377",
+      "gasCostWei": "743770",
+      "token": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB"
+    },
+    {
+      "action": "approve",
+      "user": "0x90F79bf6EB2c4f870365E785982E1f101E93b906",
+      "transactionHash": "0xb07e156ac1b97d07c5758255f972114e1ad5a4cd53211e2cccda1973b93a9908",
+      "blockNumber": 717,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "approve",
+      "user": "0x90F79bf6EB2c4f870365E785982E1f101E93b906",
+      "transactionHash": "0xedbbfb9e0724b562faf823e2e378edb527f29110247bcee2a49239e61f7c4b3a",
+      "blockNumber": 718,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "claim",
+      "user": "0x90F79bf6EB2c4f870365E785982E1f101E93b906",
+      "transactionHash": "0xf24cb35f823c625e2869746c3df11596e8eb29725844c8ac0def711f9cdfbfa0",
+      "blockNumber": 719,
+      "gasUsed": "74377",
+      "gasCostWei": "743770",
+      "token": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02"
+    },
+    {
+      "action": "approve",
+      "user": "0x90F79bf6EB2c4f870365E785982E1f101E93b906",
+      "transactionHash": "0x8857d82db1d8abcf475a482ee8513f9027518fb44be253c36b2ad35d43ec399e",
+      "blockNumber": 720,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "approve",
+      "user": "0x90F79bf6EB2c4f870365E785982E1f101E93b906",
+      "transactionHash": "0x9611eb88d67ce1b3f609311da25c3f3d9df515044f1d6db57645549382dffea0",
+      "blockNumber": 721,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "claim",
+      "user": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
+      "transactionHash": "0x958ce531b92a3b069935714bb483352605950467afaa03368a13807c016c3816",
+      "blockNumber": 722,
+      "gasUsed": "74377",
+      "gasCostWei": "743770",
+      "token": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB"
+    },
+    {
+      "action": "approve",
+      "user": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
+      "transactionHash": "0x63e1435ae79fbc9ed5eac02c6de2c3c0745c971cf6e1912eefc6a778ff580cbd",
+      "blockNumber": 723,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "approve",
+      "user": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
+      "transactionHash": "0x0fdeb79b0a8605e69471afcb973d332158939887d53e15d4c67e12b487a6536f",
+      "blockNumber": 724,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "claim",
+      "user": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
+      "transactionHash": "0x8d79848b7b831360476bc701d7256130a393cd158a2d5090cad5c7c37ec5b1ed",
+      "blockNumber": 725,
+      "gasUsed": "74377",
+      "gasCostWei": "743770",
+      "token": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02"
+    },
+    {
+      "action": "approve",
+      "user": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
+      "transactionHash": "0xad13692b5269954ed9cfc0080d288759875b75d66456a752b6cc2d7deb823cfd",
+      "blockNumber": 726,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "approve",
+      "user": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
+      "transactionHash": "0xeae1dd9d2088d800ef2238002b9115edafd7aa033bac14efdb55b1caeafb5f7b",
+      "blockNumber": 727,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "claim",
+      "user": "0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc",
+      "transactionHash": "0x7abbdb137b99e5588bfa8c6259c9198eef04857858575dc360f4d9de4f7e232d",
+      "blockNumber": 728,
+      "gasUsed": "74377",
+      "gasCostWei": "743770",
+      "token": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB"
+    },
+    {
+      "action": "approve",
+      "user": "0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc",
+      "transactionHash": "0x0db8d1ebcb24e6ff1f37c334ca125c9147442aa8d5f2593674ee2460ed6fb9c0",
+      "blockNumber": 729,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "approve",
+      "user": "0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc",
+      "transactionHash": "0x96e986cfa29ac89196195f35aa1e42b400547372beed50296cdf0e14d9657c7a",
+      "blockNumber": 730,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "claim",
+      "user": "0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc",
+      "transactionHash": "0xdaacd49acf396b5169934c92bdd7d423dd6ca4fc682e9ce57e507fb1ad45d0fc",
+      "blockNumber": 731,
+      "gasUsed": "74377",
+      "gasCostWei": "743770",
+      "token": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02"
+    },
+    {
+      "action": "approve",
+      "user": "0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc",
+      "transactionHash": "0x110b2be3a858b3cbbec750a05dab1e8d86de9f5765bce2f21863953c01e2313c",
+      "blockNumber": 732,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "approve",
+      "user": "0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc",
+      "transactionHash": "0xf901f2d2f145452741bb500ec2655f425a8c0f5a2e5f48eabf7e9a300fe17011",
+      "blockNumber": 733,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "claim",
+      "user": "0x976EA74026E726554dB657fA54763abd0C3a0aa9",
+      "transactionHash": "0x68208211cac651c8eb0d188bd92bd5da8000f473bbb4bbc26cb67033fde6cc22",
+      "blockNumber": 734,
+      "gasUsed": "74377",
+      "gasCostWei": "743770",
+      "token": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB"
+    },
+    {
+      "action": "approve",
+      "user": "0x976EA74026E726554dB657fA54763abd0C3a0aa9",
+      "transactionHash": "0x355de1aebe9fdcf8b076299a090692b8527ef9db1b7a1ad62d660066cc1a7c77",
+      "blockNumber": 735,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "approve",
+      "user": "0x976EA74026E726554dB657fA54763abd0C3a0aa9",
+      "transactionHash": "0x48115f442e884d060834494a4c5d6a5925a97d83367e4e3826dbb926c9aed3e2",
+      "blockNumber": 736,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "claim",
+      "user": "0x976EA74026E726554dB657fA54763abd0C3a0aa9",
+      "transactionHash": "0x250f3b8c16f855f9f6b578befe54133e128037a4e29e2ea4db5f69dd4ed0b628",
+      "blockNumber": 737,
+      "gasUsed": "74377",
+      "gasCostWei": "743770",
+      "token": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02"
+    },
+    {
+      "action": "approve",
+      "user": "0x976EA74026E726554dB657fA54763abd0C3a0aa9",
+      "transactionHash": "0xa811cce51257283123e5708bd8e180d1ccdf8f11f9797078ba87b677af941e8d",
+      "blockNumber": 738,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "approve",
+      "user": "0x976EA74026E726554dB657fA54763abd0C3a0aa9",
+      "transactionHash": "0x7ceef34e2b4d8053a2e0126e1de2835b36950a1b3554fc4e3ad422fe03d8267a",
+      "blockNumber": 739,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "claim",
+      "user": "0x14dC79964da2C08b23698B3D3cc7Ca32193d9955",
+      "transactionHash": "0x86e5ec15905dc6537dfb9cc460c3345f36acd74a83629a8236030e9598ebaf37",
+      "blockNumber": 740,
+      "gasUsed": "74377",
+      "gasCostWei": "743770",
+      "token": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB"
+    },
+    {
+      "action": "approve",
+      "user": "0x14dC79964da2C08b23698B3D3cc7Ca32193d9955",
+      "transactionHash": "0x8128ea0d5c10fd4191ccfbfc08b65f150a6af70c57efe1798274be19e0e60e3b",
+      "blockNumber": 741,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "approve",
+      "user": "0x14dC79964da2C08b23698B3D3cc7Ca32193d9955",
+      "transactionHash": "0x8112a34e12e8f4b5f8bb5b1d189e5c59e90c963f0b274343fb3a024c1cbb748f",
+      "blockNumber": 742,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "claim",
+      "user": "0x14dC79964da2C08b23698B3D3cc7Ca32193d9955",
+      "transactionHash": "0x7a60672d0e56e2cef8f9cd43c0ad63d9a71bcf560f3fb59b5af2200d31497988",
+      "blockNumber": 743,
+      "gasUsed": "74377",
+      "gasCostWei": "743770",
+      "token": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02"
+    },
+    {
+      "action": "approve",
+      "user": "0x14dC79964da2C08b23698B3D3cc7Ca32193d9955",
+      "transactionHash": "0xc0666795d3e4352f153217bd67964d948e45c1922984dbadf33f252bfe0cd7fb",
+      "blockNumber": 744,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "approve",
+      "user": "0x14dC79964da2C08b23698B3D3cc7Ca32193d9955",
+      "transactionHash": "0x48969507904160f9fb8c750715d659f60a1778b717460b71d03b3aca24da48e0",
+      "blockNumber": 745,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "claim",
+      "user": "0x23618e81E3f5cdF7f54C3d65f7FBc0aBf5B21E8f",
+      "transactionHash": "0x34b5283430179040d24f3491ca4a333c066770cd64b0682a309245b83e83e4d6",
+      "blockNumber": 746,
+      "gasUsed": "74377",
+      "gasCostWei": "743770",
+      "token": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB"
+    },
+    {
+      "action": "approve",
+      "user": "0x23618e81E3f5cdF7f54C3d65f7FBc0aBf5B21E8f",
+      "transactionHash": "0xe4d83712d7347528bb2739960ae7cb025db592af70d43f0e483d52ec7dbdc5dd",
+      "blockNumber": 747,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "approve",
+      "user": "0x23618e81E3f5cdF7f54C3d65f7FBc0aBf5B21E8f",
+      "transactionHash": "0x223ce45a89835fc1c203e8cb8adc3287fbe6039f452a9857a70aa48ae3e4f48f",
+      "blockNumber": 748,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "claim",
+      "user": "0x23618e81E3f5cdF7f54C3d65f7FBc0aBf5B21E8f",
+      "transactionHash": "0x8cac1f930d3959a58e502b78e2b3f021e543f8ed5c4153892dd35ce9ea4bbd8b",
+      "blockNumber": 749,
+      "gasUsed": "74377",
+      "gasCostWei": "743770",
+      "token": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02"
+    },
+    {
+      "action": "approve",
+      "user": "0x23618e81E3f5cdF7f54C3d65f7FBc0aBf5B21E8f",
+      "transactionHash": "0x60c9630d18f57178bc212baf0efdad387e64ce4030c053e6fc4f014e3574cbb4",
+      "blockNumber": 750,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "approve",
+      "user": "0x23618e81E3f5cdF7f54C3d65f7FBc0aBf5B21E8f",
+      "transactionHash": "0xf829221b540e5c987521591e74a948b168b13a7b325051397cc08cf7ae4aef5f",
+      "blockNumber": 751,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "claim",
+      "user": "0xa0Ee7A142d267C1f36714E4a8F75612F20a79720",
+      "transactionHash": "0xa73b1e10b1654e83e2451e833197084264b69f556f83b22cfca70e2bb99a7ab7",
+      "blockNumber": 752,
+      "gasUsed": "74377",
+      "gasCostWei": "743770",
+      "token": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB"
+    },
+    {
+      "action": "approve",
+      "user": "0xa0Ee7A142d267C1f36714E4a8F75612F20a79720",
+      "transactionHash": "0xbc82f4974f349dc54b98221d31dfb76e29e7dec88f6886e632c6dc189ae5bff2",
+      "blockNumber": 753,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "approve",
+      "user": "0xa0Ee7A142d267C1f36714E4a8F75612F20a79720",
+      "transactionHash": "0xfb6d8989d7624e5f80fbb52660edb481d57a55c8781f146add5be3e758f0d6df",
+      "blockNumber": 754,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "claim",
+      "user": "0xa0Ee7A142d267C1f36714E4a8F75612F20a79720",
+      "transactionHash": "0x34e122f15574a35e12013137b35785490a9e23b9a36ba7aaf40efdea8f8c489e",
+      "blockNumber": 755,
+      "gasUsed": "74377",
+      "gasCostWei": "743770",
+      "token": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02"
+    },
+    {
+      "action": "approve",
+      "user": "0xa0Ee7A142d267C1f36714E4a8F75612F20a79720",
+      "transactionHash": "0xc65d6b79cfcd8f4d12a3432765de665e54b3f03df547e12a63c280b1754cf443",
+      "blockNumber": 756,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "approve",
+      "user": "0xa0Ee7A142d267C1f36714E4a8F75612F20a79720",
+      "transactionHash": "0x047b05a05efc6e23078016ce8e1d621b34757a8925a50de4f1644e59db3e81b6",
+      "blockNumber": 757,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "claim",
+      "user": "0xBcd4042DE499D14e55001CcbB24a551F3b954096",
+      "transactionHash": "0xbf1a56983f9bfd2fa6509c953912732c932b96ad644f05b7bcbf6580032592e0",
+      "blockNumber": 758,
+      "gasUsed": "74377",
+      "gasCostWei": "743770",
+      "token": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB"
+    },
+    {
+      "action": "approve",
+      "user": "0xBcd4042DE499D14e55001CcbB24a551F3b954096",
+      "transactionHash": "0xf6fe145b516894b07a78e5343080b5db36d7c30c9fa741b1fa88472183f8ada5",
+      "blockNumber": 759,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "approve",
+      "user": "0xBcd4042DE499D14e55001CcbB24a551F3b954096",
+      "transactionHash": "0xe867e26300115800a1c17118ae3be73c56da974228ccabc162c9cf6ff0ac0604",
+      "blockNumber": 760,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "claim",
+      "user": "0xBcd4042DE499D14e55001CcbB24a551F3b954096",
+      "transactionHash": "0x42be972bc803f4f678b8e2d79403a34639083127b52c20c40752a79e10280f3d",
+      "blockNumber": 761,
+      "gasUsed": "74377",
+      "gasCostWei": "743770",
+      "token": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02"
+    },
+    {
+      "action": "approve",
+      "user": "0xBcd4042DE499D14e55001CcbB24a551F3b954096",
+      "transactionHash": "0x1aa4087a5550c00d963a03184c41634a506bf540dfdd4265fa1cf0ac64c419ea",
+      "blockNumber": 762,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "approve",
+      "user": "0xBcd4042DE499D14e55001CcbB24a551F3b954096",
+      "transactionHash": "0xaee54a679e9b8e02a832e964ebded2e572611f4a42d8063ae7ebabb047b60e89",
+      "blockNumber": 763,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "claim",
+      "user": "0x71bE63f3384f5fb98995898A86B02Fb2426c5788",
+      "transactionHash": "0x2ae4f271e7aa3ed713b2ebc5f5b0a6ea031e54f25a0b5533185c57e6b46017ad",
+      "blockNumber": 764,
+      "gasUsed": "74377",
+      "gasCostWei": "743770",
+      "token": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB"
+    },
+    {
+      "action": "approve",
+      "user": "0x71bE63f3384f5fb98995898A86B02Fb2426c5788",
+      "transactionHash": "0x8ec9dd345eb9a4372f8d463eb0f950517825a3ceea42c40beb3961099a096f19",
+      "blockNumber": 765,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "approve",
+      "user": "0x71bE63f3384f5fb98995898A86B02Fb2426c5788",
+      "transactionHash": "0x6b7ae20cdc60a5a1ec0eabd4cc2a6798421bebb36332eaee2cc810a4e2fa26e7",
+      "blockNumber": 766,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "claim",
+      "user": "0x71bE63f3384f5fb98995898A86B02Fb2426c5788",
+      "transactionHash": "0xed3fd5bce0c72b27d387409fa7852a874ca732dce9ea1ef215bc6208041a394f",
+      "blockNumber": 767,
+      "gasUsed": "74377",
+      "gasCostWei": "743770",
+      "token": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02"
+    },
+    {
+      "action": "approve",
+      "user": "0x71bE63f3384f5fb98995898A86B02Fb2426c5788",
+      "transactionHash": "0xaddc4408c0e5028301c2bb18f7a6478d24537e8cfd79c7ab0befd57e9c0e8044",
+      "blockNumber": 768,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "approve",
+      "user": "0x71bE63f3384f5fb98995898A86B02Fb2426c5788",
+      "transactionHash": "0x3f30c23af52fa92ee5dd683a3b1f3d504cc62ddbf57725ff79167e971f18af0b",
+      "blockNumber": 769,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "claim",
+      "user": "0xFABB0ac9d68B0B445fB7357272Ff202C5651694a",
+      "transactionHash": "0x559f306518ee37f3129886f2afe77d97be50e93003c3ce671abba1c4364c5ebb",
+      "blockNumber": 770,
+      "gasUsed": "74377",
+      "gasCostWei": "743770",
+      "token": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB"
+    },
+    {
+      "action": "approve",
+      "user": "0xFABB0ac9d68B0B445fB7357272Ff202C5651694a",
+      "transactionHash": "0xe0c788a6b1e0899d2bb95e43a8b93a8551071e29ccaae55256d4f403ec0353a9",
+      "blockNumber": 771,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "approve",
+      "user": "0xFABB0ac9d68B0B445fB7357272Ff202C5651694a",
+      "transactionHash": "0x633ab891efe8d5640eb353b97d89cb29adf8403a343131ff15883e46d239ac2f",
+      "blockNumber": 772,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "claim",
+      "user": "0xFABB0ac9d68B0B445fB7357272Ff202C5651694a",
+      "transactionHash": "0xc7aeda91e472aa1b390523a282546850328ab825fa6e96f9301317d9a6ebd203",
+      "blockNumber": 773,
+      "gasUsed": "74377",
+      "gasCostWei": "743770",
+      "token": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02"
+    },
+    {
+      "action": "approve",
+      "user": "0xFABB0ac9d68B0B445fB7357272Ff202C5651694a",
+      "transactionHash": "0xf8f81976ae607906ab1493bb80c8c6bd92fb3867f9fb5604b7e2e4b1c7dd8ac4",
+      "blockNumber": 774,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "approve",
+      "user": "0xFABB0ac9d68B0B445fB7357272Ff202C5651694a",
+      "transactionHash": "0x1dad8339b02a6a43cea8992ecfefe60becb59624b617b10a51427d3fc9b0484d",
+      "blockNumber": 775,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "claim",
+      "user": "0x1CBd3b2770909D4e10f157cABC84C7264073C9Ec",
+      "transactionHash": "0xffcca3c01acab271c485ae984625b771688e4e87d4fc62d90ba3924339b5b07e",
+      "blockNumber": 776,
+      "gasUsed": "74377",
+      "gasCostWei": "743770",
+      "token": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB"
+    },
+    {
+      "action": "approve",
+      "user": "0x1CBd3b2770909D4e10f157cABC84C7264073C9Ec",
+      "transactionHash": "0x59cb54ca499846f02e130533431be85ae1983e733d97492c1b4bcec1787cc075",
+      "blockNumber": 777,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "approve",
+      "user": "0x1CBd3b2770909D4e10f157cABC84C7264073C9Ec",
+      "transactionHash": "0x0bb4569bda69e1e595b68e835f4318b3ceabf880a3e71bcc094a1df93ea7e4a5",
+      "blockNumber": 778,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "claim",
+      "user": "0x1CBd3b2770909D4e10f157cABC84C7264073C9Ec",
+      "transactionHash": "0xabc8e19fdb289d2ab4eb5d398538b6450d197b095f5467a428bb39df5fe29980",
+      "blockNumber": 779,
+      "gasUsed": "74377",
+      "gasCostWei": "743770",
+      "token": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02"
+    },
+    {
+      "action": "approve",
+      "user": "0x1CBd3b2770909D4e10f157cABC84C7264073C9Ec",
+      "transactionHash": "0x897145efa86032ba9c54d251ce286cdb1aa4d6bb114178fe70d1d11e0163baa8",
+      "blockNumber": 780,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "approve",
+      "user": "0x1CBd3b2770909D4e10f157cABC84C7264073C9Ec",
+      "transactionHash": "0x2911193048692ea102115baed7f59dfc745fb56deff72aa638d6f26d1654b37a",
+      "blockNumber": 781,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "claim",
+      "user": "0xdF3e18d64BC6A983f673Ab319CCaE4f1a57C7097",
+      "transactionHash": "0x741d4836a1de63be531e5e1e53cc95530ba15f6ef1b91337de4f76663f57e397",
+      "blockNumber": 782,
+      "gasUsed": "74377",
+      "gasCostWei": "743770",
+      "token": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB"
+    },
+    {
+      "action": "approve",
+      "user": "0xdF3e18d64BC6A983f673Ab319CCaE4f1a57C7097",
+      "transactionHash": "0xf86ccd3ecfedacc816f76f2269188d52e2ceb052d4e144a4150e46a8559c5dea",
+      "blockNumber": 783,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "approve",
+      "user": "0xdF3e18d64BC6A983f673Ab319CCaE4f1a57C7097",
+      "transactionHash": "0x442a30e73d514783c0a4541c0900a8263022edb84f297b62368b681b6164f1f8",
+      "blockNumber": 784,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "claim",
+      "user": "0xdF3e18d64BC6A983f673Ab319CCaE4f1a57C7097",
+      "transactionHash": "0x678b0ed4d5a8095eae2de6b892c77cf35317aab330c59b49c21c1f90f65da1fe",
+      "blockNumber": 785,
+      "gasUsed": "74377",
+      "gasCostWei": "743770",
+      "token": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02"
+    },
+    {
+      "action": "approve",
+      "user": "0xdF3e18d64BC6A983f673Ab319CCaE4f1a57C7097",
+      "transactionHash": "0x990bd95bd8e41ed26c1ef8fe575efac5b313172dd3c53aa0b6af5e5fa1c71ac7",
+      "blockNumber": 786,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "approve",
+      "user": "0xdF3e18d64BC6A983f673Ab319CCaE4f1a57C7097",
+      "transactionHash": "0xbb53ba24536182deeb302cfbb6365efddb6aa6a28e43de2dd176e6fd16251457",
+      "blockNumber": 787,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "claim",
+      "user": "0xcd3B766CCDd6AE721141F452C550Ca635964ce71",
+      "transactionHash": "0xae9d6ea5b87eccbdeadbf35fcc34a4be5d77002f874acf980bbed5e973a6c4d3",
+      "blockNumber": 788,
+      "gasUsed": "74377",
+      "gasCostWei": "743770",
+      "token": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB"
+    },
+    {
+      "action": "approve",
+      "user": "0xcd3B766CCDd6AE721141F452C550Ca635964ce71",
+      "transactionHash": "0xf74d04385d1d6e6cdffd1cad3c92f8981fb524d7819ba98f2dd277ed3657687e",
+      "blockNumber": 789,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "approve",
+      "user": "0xcd3B766CCDd6AE721141F452C550Ca635964ce71",
+      "transactionHash": "0xa3688bd288dd0891cf903d2d2ac8be9632efff670b4f3c25e54d50b39ca5d3d5",
+      "blockNumber": 790,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "claim",
+      "user": "0xcd3B766CCDd6AE721141F452C550Ca635964ce71",
+      "transactionHash": "0x05a516f4b4ce0e65d380c0a1408a997f8d7c461d54b889755795f2138b66fffe",
+      "blockNumber": 791,
+      "gasUsed": "74377",
+      "gasCostWei": "743770",
+      "token": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02"
+    },
+    {
+      "action": "approve",
+      "user": "0xcd3B766CCDd6AE721141F452C550Ca635964ce71",
+      "transactionHash": "0x48bf68afb7ca585b3de5ea5a39a87562e08916ade113259a15bfa53acf266ffd",
+      "blockNumber": 792,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "approve",
+      "user": "0xcd3B766CCDd6AE721141F452C550Ca635964ce71",
+      "transactionHash": "0x8d84c068f73956fae4305c0fc0dd10954cb5b281549d8c29d155dce36ef5b0dd",
+      "blockNumber": 793,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "claim",
+      "user": "0x2546BcD3c84621e976D8185a91A922aE77ECEc30",
+      "transactionHash": "0x1666030b1af97899433e19ee4bf0395d94101a0b7e3da958191ebe50ac5d794f",
+      "blockNumber": 794,
+      "gasUsed": "74377",
+      "gasCostWei": "743770",
+      "token": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB"
+    },
+    {
+      "action": "approve",
+      "user": "0x2546BcD3c84621e976D8185a91A922aE77ECEc30",
+      "transactionHash": "0x809a6fb163e93c081d1a2fdc24ae7e82989af4a67ffa22e2039cdadf5063d0c3",
+      "blockNumber": 795,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "approve",
+      "user": "0x2546BcD3c84621e976D8185a91A922aE77ECEc30",
+      "transactionHash": "0x78ad53beefcc452c9c2976ad5f9cc32b25bdc30817a506f155015cfae6508bf3",
+      "blockNumber": 796,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "claim",
+      "user": "0x2546BcD3c84621e976D8185a91A922aE77ECEc30",
+      "transactionHash": "0xb79158d0630ddf9ee986ec81e68f59039695e98e18715692500762a719319d96",
+      "blockNumber": 797,
+      "gasUsed": "74377",
+      "gasCostWei": "743770",
+      "token": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02"
+    },
+    {
+      "action": "approve",
+      "user": "0x2546BcD3c84621e976D8185a91A922aE77ECEc30",
+      "transactionHash": "0x59488e5d344cf5e1c14bd929dd2b9c971d0e0eff353d6b65781deaff3618202d",
+      "blockNumber": 798,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "approve",
+      "user": "0x2546BcD3c84621e976D8185a91A922aE77ECEc30",
+      "transactionHash": "0xc0412c5d292731847502a48bbe0db7194f4dcfb8b9248b05357d83c0e62f44a9",
+      "blockNumber": 799,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "claim",
+      "user": "0xbDA5747bFD65F08deb54cb465eB87D40e51B197E",
+      "transactionHash": "0x1344513a7091a51ef685afb6d1cb02a3d7547d7ab268542c8562cdaa440a54d1",
+      "blockNumber": 800,
+      "gasUsed": "74377",
+      "gasCostWei": "743770",
+      "token": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB"
+    },
+    {
+      "action": "approve",
+      "user": "0xbDA5747bFD65F08deb54cb465eB87D40e51B197E",
+      "transactionHash": "0x567b0e3857782f49a77fa58a71286861cf84729252a33b484c57c7705279b056",
+      "blockNumber": 801,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "approve",
+      "user": "0xbDA5747bFD65F08deb54cb465eB87D40e51B197E",
+      "transactionHash": "0x7d8a5302c7b9e81001da2e0185508765171adb92c36d7ccbf94ff3b1bbaf9811",
+      "blockNumber": 802,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "claim",
+      "user": "0xbDA5747bFD65F08deb54cb465eB87D40e51B197E",
+      "transactionHash": "0x3ad75b2580b3de1e9d1f2ed1d185868f01ae76647fa2f28f75cc6836c97eb32d",
+      "blockNumber": 803,
+      "gasUsed": "74377",
+      "gasCostWei": "743770",
+      "token": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02"
+    },
+    {
+      "action": "approve",
+      "user": "0xbDA5747bFD65F08deb54cb465eB87D40e51B197E",
+      "transactionHash": "0x257f578f3d352ace2bc7dead6c82b306199fb6344ece79d96e41b6127dd5363a",
+      "blockNumber": 804,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "approve",
+      "user": "0xbDA5747bFD65F08deb54cb465eB87D40e51B197E",
+      "transactionHash": "0x8494c4fa500384716ebaefb3204d324a1ea545369c0097b1b6222435fd0dd0bf",
+      "blockNumber": 805,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "claim",
+      "user": "0xdD2FD4581271e230360230F9337D5c0430Bf44C0",
+      "transactionHash": "0xdc327a59a2d70d48b66193276c72dce5c4a6af4f6f04bb34ce12c616e2e0751d",
+      "blockNumber": 806,
+      "gasUsed": "74377",
+      "gasCostWei": "743770",
+      "token": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB"
+    },
+    {
+      "action": "approve",
+      "user": "0xdD2FD4581271e230360230F9337D5c0430Bf44C0",
+      "transactionHash": "0x747143e437fe2cbba6d7598fa64ee5d33122accaaa882114418b40d28ad54290",
+      "blockNumber": 807,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "approve",
+      "user": "0xdD2FD4581271e230360230F9337D5c0430Bf44C0",
+      "transactionHash": "0x9c2af1ac2bf53556a84da7e6826cedfd01145cc5bc58ce633c7a8f5d5993a37f",
+      "blockNumber": 808,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "claim",
+      "user": "0xdD2FD4581271e230360230F9337D5c0430Bf44C0",
+      "transactionHash": "0xe4edd07ba519d7ffa45cb2b3f8bd76746d9edb94a324e8f712e43e73b8992fa3",
+      "blockNumber": 809,
+      "gasUsed": "74377",
+      "gasCostWei": "743770",
+      "token": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02"
+    },
+    {
+      "action": "approve",
+      "user": "0xdD2FD4581271e230360230F9337D5c0430Bf44C0",
+      "transactionHash": "0x39f6178df57c023cbea95ade992af284aa67a8d4b061d98b08b2fcb42169c1fb",
+      "blockNumber": 810,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "approve",
+      "user": "0xdD2FD4581271e230360230F9337D5c0430Bf44C0",
+      "transactionHash": "0xcb83e7b5a801e668cee618e34845dcc511ab67ac48677ff00cb7e1795e6ccddd",
+      "blockNumber": 811,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "claim",
+      "user": "0x8626f6940E2eb28930eFb4CeF49B2d1F2C9C1199",
+      "transactionHash": "0x414f6b81d1ca88420b5c5a7647ea5422c2831eea8191b1ce2e4d0d732fec52a3",
+      "blockNumber": 812,
+      "gasUsed": "74377",
+      "gasCostWei": "743770",
+      "token": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB"
+    },
+    {
+      "action": "approve",
+      "user": "0x8626f6940E2eb28930eFb4CeF49B2d1F2C9C1199",
+      "transactionHash": "0xb3dd6277991ef8e8b196335497b3448733c3b7af0d2b3b455a8f90d0a246e095",
+      "blockNumber": 813,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "approve",
+      "user": "0x8626f6940E2eb28930eFb4CeF49B2d1F2C9C1199",
+      "transactionHash": "0xddd1786ab192e5b8f6a046076153d4ecf5d1aa293379496d27a910431ca16bc9",
+      "blockNumber": 814,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "claim",
+      "user": "0x8626f6940E2eb28930eFb4CeF49B2d1F2C9C1199",
+      "transactionHash": "0x9844e730ebe4b0a196e1e5bb7835f36d7b7c764097eefa21be36c763d0e1a1ac",
+      "blockNumber": 815,
+      "gasUsed": "74377",
+      "gasCostWei": "743770",
+      "token": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02"
+    },
+    {
+      "action": "approve",
+      "user": "0x8626f6940E2eb28930eFb4CeF49B2d1F2C9C1199",
+      "transactionHash": "0xc034f1eb6a019ef4c72c79397b5f275d20b0dfbfa8f7ad33f44bf93e05a5236f",
+      "blockNumber": 816,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "approve",
+      "user": "0x8626f6940E2eb28930eFb4CeF49B2d1F2C9C1199",
+      "transactionHash": "0x3868fb38bdc4cdfd50edabfd3d0ea90ef4cfc9c3bee7adc35079fdc348107856",
+      "blockNumber": 817,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "createPool",
+      "user": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "transactionHash": "0x6b234d91e06d505939e69fee35360cca68a20e70ccbf25f62878e452901dab9b",
+      "blockNumber": 818,
+      "gasUsed": "208320",
+      "gasCostWei": "2083200"
+    },
+    {
+      "action": "createPool",
+      "user": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "transactionHash": "0x4211f45851f26d795b85f7de62a117f613466af42891ff26c2396e6e2d10a3bb",
+      "blockNumber": 819,
+      "gasUsed": "208320",
+      "gasCostWei": "2083200"
+    },
+    {
+      "action": "add",
+      "user": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "transactionHash": "0xe73f0ff28f6d5a9439576b8a873add05732cee7134926957f37ba8e0279a4b03",
+      "blockNumber": 820,
+      "gasUsed": "501576",
+      "gasCostWei": "5015760"
+    },
+    {
+      "action": "add",
+      "user": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "transactionHash": "0x79a1688b0e5774abccdd8eb741f25ec1207e19dba08300445ada288dfd614374",
+      "blockNumber": 821,
+      "gasUsed": "501576",
+      "gasCostWei": "5015760"
+    },
+    {
+      "action": "add",
+      "user": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "transactionHash": "0x728b17ec3e905528ef099d0a82793df4d7a1c5852e1c80f39cac83a704819d2b",
+      "blockNumber": 822,
+      "gasUsed": "384538",
+      "gasCostWei": "3845380"
+    },
+    {
+      "action": "add",
+      "user": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "transactionHash": "0x868f4034f27338808e26e2fb2da2d006b2396209f7d396c76f487a1f5f98ba67",
+      "blockNumber": 823,
+      "gasUsed": "384538",
+      "gasCostWei": "3845380"
+    },
+    {
+      "action": "add",
+      "user": "0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC",
+      "transactionHash": "0xaffe36194a4e27d4c0626db5a5a6d62d2414f902b9007b00f3f19bb5bec6ddcf",
+      "blockNumber": 824,
+      "gasUsed": "384538",
+      "gasCostWei": "3845380"
+    },
+    {
+      "action": "add",
+      "user": "0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC",
+      "transactionHash": "0x4a122949fc8082cf10e43ce142de83ee170c3720d4b13ebc18e1627b27b11d8a",
+      "blockNumber": 825,
+      "gasUsed": "384538",
+      "gasCostWei": "3845380"
+    },
+    {
+      "action": "add",
+      "user": "0x90F79bf6EB2c4f870365E785982E1f101E93b906",
+      "transactionHash": "0x0d20fe3ecc12d86a42a85e5935c682ba0bc30158e6ca588c8e96af6935069807",
+      "blockNumber": 826,
+      "gasUsed": "384538",
+      "gasCostWei": "3845380"
+    },
+    {
+      "action": "add",
+      "user": "0x90F79bf6EB2c4f870365E785982E1f101E93b906",
+      "transactionHash": "0x925d63cf3e219110b9a5f52f655581cbea6401f2cb06cc2d29be201ad072ca1e",
+      "blockNumber": 827,
+      "gasUsed": "384538",
+      "gasCostWei": "3845380"
+    },
+    {
+      "action": "add",
+      "user": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
+      "transactionHash": "0x4617295e57d4d8aea9929e170a00a1d8d4c114faf2a5e22d977896bc4c1f8274",
+      "blockNumber": 828,
+      "gasUsed": "384538",
+      "gasCostWei": "3845380"
+    },
+    {
+      "action": "add",
+      "user": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
+      "transactionHash": "0x8a4566ea21e18e40a1169f5ecc59527676c49c64c2e9fe8c71e5d71bc663429a",
+      "blockNumber": 829,
+      "gasUsed": "384538",
+      "gasCostWei": "3845380"
+    },
+    {
+      "action": "add",
+      "user": "0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc",
+      "transactionHash": "0x2ac15c8898e7963024f4bca066093defa115aefaadf8a7c41e1bc00e728f71a9",
+      "blockNumber": 830,
+      "gasUsed": "384538",
+      "gasCostWei": "3845380"
+    },
+    {
+      "action": "add",
+      "user": "0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc",
+      "transactionHash": "0xa7379d23fb6abacfed9698b07f1800beeb03c6394def2632ac1267c0af0bdd71",
+      "blockNumber": 831,
+      "gasUsed": "384538",
+      "gasCostWei": "3845380"
+    },
+    {
+      "action": "add",
+      "user": "0x976EA74026E726554dB657fA54763abd0C3a0aa9",
+      "transactionHash": "0xd90d415f6b5944249eebc5ae46ae0dce1ae506a37fdeaa88a37d14d8d49ea428",
+      "blockNumber": 832,
+      "gasUsed": "384538",
+      "gasCostWei": "3845380"
+    },
+    {
+      "action": "add",
+      "user": "0x976EA74026E726554dB657fA54763abd0C3a0aa9",
+      "transactionHash": "0xdb08bb32d2d0a716070d6c88637990dc604fd41feff40c635b480cad3938bf79",
+      "blockNumber": 833,
+      "gasUsed": "384538",
+      "gasCostWei": "3845380"
+    },
+    {
+      "action": "add",
+      "user": "0x14dC79964da2C08b23698B3D3cc7Ca32193d9955",
+      "transactionHash": "0x41676d00e5ded995638fc11f6c626058ebc6c873a055c37da7db7cfce75f5967",
+      "blockNumber": 834,
+      "gasUsed": "384538",
+      "gasCostWei": "3845380"
+    },
+    {
+      "action": "add",
+      "user": "0x14dC79964da2C08b23698B3D3cc7Ca32193d9955",
+      "transactionHash": "0x85917b9b5909e69787a5047a85c2100357262f072d6dfe0306f3b899719472a3",
+      "blockNumber": 835,
+      "gasUsed": "384538",
+      "gasCostWei": "3845380"
+    },
+    {
+      "action": "add",
+      "user": "0x23618e81E3f5cdF7f54C3d65f7FBc0aBf5B21E8f",
+      "transactionHash": "0x9ffff0799769114db61588df6f1b4d493fb480f6ec9871004d77f9b0c1f54eb5",
+      "blockNumber": 836,
+      "gasUsed": "384538",
+      "gasCostWei": "3845380"
+    },
+    {
+      "action": "add",
+      "user": "0x23618e81E3f5cdF7f54C3d65f7FBc0aBf5B21E8f",
+      "transactionHash": "0xcd25c518c8d993f4282e4db4697c5578878cb44ef4677f63a6914ed06d548b72",
+      "blockNumber": 837,
+      "gasUsed": "384538",
+      "gasCostWei": "3845380"
+    },
+    {
+      "action": "add",
+      "user": "0xa0Ee7A142d267C1f36714E4a8F75612F20a79720",
+      "transactionHash": "0x66f029bca0c1d115ae7b030bdb86c057784caef7d8a9e23db273056f1d2aa968",
+      "blockNumber": 838,
+      "gasUsed": "384538",
+      "gasCostWei": "3845380"
+    },
+    {
+      "action": "add",
+      "user": "0xa0Ee7A142d267C1f36714E4a8F75612F20a79720",
+      "transactionHash": "0xacffd20106db81a457bfe604f11bb1f58895dca8d0de01c5f9ac96bf5e99c26f",
+      "blockNumber": 839,
+      "gasUsed": "384538",
+      "gasCostWei": "3845380"
+    },
+    {
+      "action": "add",
+      "user": "0xBcd4042DE499D14e55001CcbB24a551F3b954096",
+      "transactionHash": "0xf65966c74ed7382519ccd10dc7b1a47f72e4d76ee9609575a50250c7cd65caa3",
+      "blockNumber": 840,
+      "gasUsed": "384538",
+      "gasCostWei": "3845380"
+    },
+    {
+      "action": "add",
+      "user": "0xBcd4042DE499D14e55001CcbB24a551F3b954096",
+      "transactionHash": "0x56950280c666d6dbff4b5c9d0e17c70c6ca7c938ec136964672254fd11de0f37",
+      "blockNumber": 841,
+      "gasUsed": "384538",
+      "gasCostWei": "3845380"
+    },
+    {
+      "action": "add",
+      "user": "0x71bE63f3384f5fb98995898A86B02Fb2426c5788",
+      "transactionHash": "0x4f15a1c01a0f405e0b1b87f3466fcfdbf75380251907abe9a5de351699dc458b",
+      "blockNumber": 842,
+      "gasUsed": "384538",
+      "gasCostWei": "3845380"
+    },
+    {
+      "action": "add",
+      "user": "0x71bE63f3384f5fb98995898A86B02Fb2426c5788",
+      "transactionHash": "0x959258f5d0debcd3fb7846318f43468b250cec8bc131d9648b8ec7eea9c50b1e",
+      "blockNumber": 843,
+      "gasUsed": "384538",
+      "gasCostWei": "3845380"
+    },
+    {
+      "action": "add",
+      "user": "0xFABB0ac9d68B0B445fB7357272Ff202C5651694a",
+      "transactionHash": "0x760f9f5fd456298eb4bfefd5ac71ee15148703ce6e9d1b48b69038fc70ac6011",
+      "blockNumber": 844,
+      "gasUsed": "384538",
+      "gasCostWei": "3845380"
+    },
+    {
+      "action": "add",
+      "user": "0xFABB0ac9d68B0B445fB7357272Ff202C5651694a",
+      "transactionHash": "0xa65aabf7818d57b031aabcfc8a1eb48f05bb30b8a17ff526c0b79b39e03b9fb7",
+      "blockNumber": 845,
+      "gasUsed": "384538",
+      "gasCostWei": "3845380"
+    },
+    {
+      "action": "add",
+      "user": "0x1CBd3b2770909D4e10f157cABC84C7264073C9Ec",
+      "transactionHash": "0x2d68aa734006231f99a049bac8b67ece037a156250e1acce914fda0493936d48",
+      "blockNumber": 846,
+      "gasUsed": "384538",
+      "gasCostWei": "3845380"
+    },
+    {
+      "action": "add",
+      "user": "0x1CBd3b2770909D4e10f157cABC84C7264073C9Ec",
+      "transactionHash": "0x4302b336887685a08422e48e962c83db12b2f5a4680bb43827c4ebc46d29b812",
+      "blockNumber": 847,
+      "gasUsed": "384538",
+      "gasCostWei": "3845380"
+    },
+    {
+      "action": "add",
+      "user": "0xdF3e18d64BC6A983f673Ab319CCaE4f1a57C7097",
+      "transactionHash": "0x02225a661d1520376d801424ea57e924a3137ce130eb01e6b1475ece0f8ea782",
+      "blockNumber": 848,
+      "gasUsed": "384538",
+      "gasCostWei": "3845380"
+    },
+    {
+      "action": "add",
+      "user": "0xdF3e18d64BC6A983f673Ab319CCaE4f1a57C7097",
+      "transactionHash": "0xbbca96661beb8acb5c786e7b9b805d54b8d24d864b79395d7f1de55ce3e07b32",
+      "blockNumber": 849,
+      "gasUsed": "384538",
+      "gasCostWei": "3845380"
+    },
+    {
+      "action": "add",
+      "user": "0xcd3B766CCDd6AE721141F452C550Ca635964ce71",
+      "transactionHash": "0xd947dc4fb870dbc3ff18ea2f238819dede4483c3e8ab09bb23bc1bcd38665447",
+      "blockNumber": 850,
+      "gasUsed": "384538",
+      "gasCostWei": "3845380"
+    },
+    {
+      "action": "add",
+      "user": "0xcd3B766CCDd6AE721141F452C550Ca635964ce71",
+      "transactionHash": "0x40e52c27c9d779b0f931e0b6bba95f4c1834963f13712dcf6470d1cc375a8294",
+      "blockNumber": 851,
+      "gasUsed": "384538",
+      "gasCostWei": "3845380"
+    },
+    {
+      "action": "add",
+      "user": "0x2546BcD3c84621e976D8185a91A922aE77ECEc30",
+      "transactionHash": "0xfebf057246c17d7a51c42d0a956c1df268b1f7ed7d3857994e42e86640905f96",
+      "blockNumber": 852,
+      "gasUsed": "384538",
+      "gasCostWei": "3845380"
+    },
+    {
+      "action": "add",
+      "user": "0x2546BcD3c84621e976D8185a91A922aE77ECEc30",
+      "transactionHash": "0xf0b78bcf957c32fa52282ef272e65e0b88d00e7a67a07fda2a3e79e0e6419be6",
+      "blockNumber": 853,
+      "gasUsed": "384538",
+      "gasCostWei": "3845380"
+    },
+    {
+      "action": "add",
+      "user": "0xbDA5747bFD65F08deb54cb465eB87D40e51B197E",
+      "transactionHash": "0x0acd565dc24424385fceff38273599b3c2ad09c2e9f7d1e9a40adc41d773793f",
+      "blockNumber": 854,
+      "gasUsed": "384538",
+      "gasCostWei": "3845380"
+    },
+    {
+      "action": "add",
+      "user": "0xbDA5747bFD65F08deb54cb465eB87D40e51B197E",
+      "transactionHash": "0xa821e947b35c31ebf1a8ac42f2357bce43e11e4f046d89123f67a60cb187ed5d",
+      "blockNumber": 855,
+      "gasUsed": "384538",
+      "gasCostWei": "3845380"
+    },
+    {
+      "action": "add",
+      "user": "0xdD2FD4581271e230360230F9337D5c0430Bf44C0",
+      "transactionHash": "0xad7a406aca5971d12a0b3d32826db7315ddcc1b745bba69804aa9f19bd03657d",
+      "blockNumber": 856,
+      "gasUsed": "384538",
+      "gasCostWei": "3845380"
+    },
+    {
+      "action": "add",
+      "user": "0xdD2FD4581271e230360230F9337D5c0430Bf44C0",
+      "transactionHash": "0x7572a79b72a802e68096d0b736ec8cc51f43b2b52a6f84739a11655f30936905",
+      "blockNumber": 857,
+      "gasUsed": "384538",
+      "gasCostWei": "3845380"
+    },
+    {
+      "action": "add",
+      "user": "0x8626f6940E2eb28930eFb4CeF49B2d1F2C9C1199",
+      "transactionHash": "0xb137a87b761766d4a39429e50753a668ef7cd1c4638e36fdc1f55a2f4c084aa9",
+      "blockNumber": 858,
+      "gasUsed": "384538",
+      "gasCostWei": "3845380"
+    },
+    {
+      "action": "add",
+      "user": "0x8626f6940E2eb28930eFb4CeF49B2d1F2C9C1199",
+      "transactionHash": "0xe6f99a6fd8286769e9c5abeb593623600a68c1f1c367bcb449561c00dc544b40",
+      "blockNumber": 859,
+      "gasUsed": "384538",
+      "gasCostWei": "3845380"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "transactionHash": "0x3731f56de264f84052a1702899808ab35188efc7e22156260242ef5a3b3341d6",
+      "blockNumber": 860,
+      "gasUsed": "88538",
+      "gasCostWei": "885380",
+      "venue": 2,
+      "tokenIn": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB",
+      "amountIn": "3000000000000000000",
+      "amountOut": "2968800792077242419"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0xdF3e18d64BC6A983f673Ab319CCaE4f1a57C7097",
+      "transactionHash": "0xa7d54c813cf0f3848b142e03600bc861f00b7dbfe7515799e4c3eebe9f8940e0",
+      "blockNumber": 861,
+      "gasUsed": "88538",
+      "gasCostWei": "885380",
+      "venue": 1,
+      "tokenIn": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB",
+      "amountIn": "5000000000000000000",
+      "amountOut": "4923639147128906008"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0x71bE63f3384f5fb98995898A86B02Fb2426c5788",
+      "transactionHash": "0xaca3f0d549aeb97ee207a6fdf79fe60e0f4c52e33e48f598b5d7abc72afb534d",
+      "blockNumber": 862,
+      "gasUsed": "88708",
+      "gasCostWei": "887080",
+      "venue": 2,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "7000000000000000000",
+      "amountOut": "6961549499280178892"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0xdD2FD4581271e230360230F9337D5c0430Bf44C0",
+      "transactionHash": "0xc35783d49dec902dcc3c14597b17dee0f447572e9218aa2f93ddc916d780eac8",
+      "blockNumber": 863,
+      "gasUsed": "88708",
+      "gasCostWei": "887080",
+      "venue": 2,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "1000000000000000000",
+      "amountOut": "974871221118408471"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0x2546BcD3c84621e976D8185a91A922aE77ECEc30",
+      "transactionHash": "0x6906c3ab7661d2de7ae141012754b41ba1c8e35f69b0a25b8964ef7326297738",
+      "blockNumber": 864,
+      "gasUsed": "88538",
+      "gasCostWei": "885380",
+      "venue": 1,
+      "tokenIn": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB",
+      "amountIn": "5000000000000000000",
+      "amountOut": "4803726133520890772"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0xBcd4042DE499D14e55001CcbB24a551F3b954096",
+      "transactionHash": "0x1e783eee42924c074f601298ac788be8fd8a65e91d9cdaa622985877352a5e43",
+      "blockNumber": 865,
+      "gasUsed": "88538",
+      "gasCostWei": "885380",
+      "venue": 1,
+      "tokenIn": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB",
+      "amountIn": "8000000000000000000",
+      "amountOut": "7447352322912170126"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
+      "transactionHash": "0x8795370cdc34e170b5e409e5fe7d36bf8200ae39fdeee24706656ff4d0fa2bca",
+      "blockNumber": 866,
+      "gasUsed": "88708",
+      "gasCostWei": "887080",
+      "venue": 2,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "2000000000000000000",
+      "amountOut": "1935400507429299005"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc",
+      "transactionHash": "0x3301e885ba1214d2721dab1ce5a21532ca61bcdb6f347833b434b86262317cb8",
+      "blockNumber": 867,
+      "gasUsed": "88708",
+      "gasCostWei": "887080",
+      "venue": 1,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "1000000000000000000",
+      "amountOut": "1085778546774301364"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC",
+      "transactionHash": "0x5fbf0971c705fb77039cb29a706795f3f3c7c1f50075fdccf8dda688ea83db0d",
+      "blockNumber": 868,
+      "gasUsed": "88708",
+      "gasCostWei": "887080",
+      "venue": 1,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "2000000000000000000",
+      "amountOut": "2154705572033916138"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0xFABB0ac9d68B0B445fB7357272Ff202C5651694a",
+      "transactionHash": "0x56d0be19b7ca61db3c77e131f460be81935d0425b3f5eaba2319256c784252af",
+      "blockNumber": 869,
+      "gasUsed": "88538",
+      "gasCostWei": "885380",
+      "venue": 2,
+      "tokenIn": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB",
+      "amountIn": "6000000000000000000",
+      "amountOut": "6100722966155440386"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0x14dC79964da2C08b23698B3D3cc7Ca32193d9955",
+      "transactionHash": "0x7b8278ec97d660eeffa42c3fa27ccfe50f63e111aa50cff5b59b3fc236e3cb97",
+      "blockNumber": 870,
+      "gasUsed": "88708",
+      "gasCostWei": "887080",
+      "venue": 2,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "4000000000000000000",
+      "amountOut": "3930971961854963229"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0x8626f6940E2eb28930eFb4CeF49B2d1F2C9C1199",
+      "transactionHash": "0xf156058b8cd45b33ea0b736c5866e83a6c80d4786f029bc1d9b61cb64bca6a3b",
+      "blockNumber": 871,
+      "gasUsed": "88708",
+      "gasCostWei": "887080",
+      "venue": 2,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "3000000000000000000",
+      "amountOut": "2897701921604855580"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0xcd3B766CCDd6AE721141F452C550Ca635964ce71",
+      "transactionHash": "0xb693f571a979d87b729b441f3396b821e12c03d566e6620b714a6af0e75c6c20",
+      "blockNumber": 872,
+      "gasUsed": "88708",
+      "gasCostWei": "887080",
+      "venue": 2,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "8000000000000000000",
+      "amountOut": "7523279943285821919"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0x1CBd3b2770909D4e10f157cABC84C7264073C9Ec",
+      "transactionHash": "0xa7d697bda67f3d126060b02f4855544cd5894c74eb4ef8a808e8c01cf2cfaee6",
+      "blockNumber": 873,
+      "gasUsed": "88538",
+      "gasCostWei": "885380",
+      "venue": 1,
+      "tokenIn": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB",
+      "amountIn": "3000000000000000000",
+      "amountOut": "2762422488488188124"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "transactionHash": "0x6db3b0099497633c803ce31a9f19bc0009106a2d17c2cad1da037a71bff7f9fe",
+      "blockNumber": 874,
+      "gasUsed": "88696",
+      "gasCostWei": "886960",
+      "venue": 2,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "5000000000000000000",
+      "amountOut": "4556994431469226019"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0x976EA74026E726554dB657fA54763abd0C3a0aa9",
+      "transactionHash": "0x2f7cabc16875ee0665fa3efb03ad7dca5aaf64c9d8839c4ec3fb1c8ccf6b62f3",
+      "blockNumber": 875,
+      "gasUsed": "88708",
+      "gasCostWei": "887080",
+      "venue": 2,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "4000000000000000000",
+      "amountOut": "3568482840993054342"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0xa0Ee7A142d267C1f36714E4a8F75612F20a79720",
+      "transactionHash": "0x1a972f9c689139dd3c40513db26261396916b6318642b8c4d2b74494caa6bd70",
+      "blockNumber": 876,
+      "gasUsed": "88708",
+      "gasCostWei": "887080",
+      "venue": 1,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "6000000000000000000",
+      "amountOut": "6423519962691642427"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0x90F79bf6EB2c4f870365E785982E1f101E93b906",
+      "transactionHash": "0xe8fc6670ee3f0ef9bf04310663e8575e9b0c67a5b99496890bc5f0512c6bf476",
+      "blockNumber": 877,
+      "gasUsed": "88708",
+      "gasCostWei": "887080",
+      "venue": 2,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "6000000000000000000",
+      "amountOut": "5228729491033663871"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0x23618e81E3f5cdF7f54C3d65f7FBc0aBf5B21E8f",
+      "transactionHash": "0x6fe9fc5ec302358f010c1a6e529b7217983b40798fc3c8c225fdbcdfc94e0973",
+      "blockNumber": 878,
+      "gasUsed": "88708",
+      "gasCostWei": "887080",
+      "venue": 2,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "2000000000000000000",
+      "amountOut": "1710726800859306566"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0xbDA5747bFD65F08deb54cb465eB87D40e51B197E",
+      "transactionHash": "0x0d1a56918e6c9088d02b622615866023f228ad676a5ccd3542591c0dbf72cab1",
+      "blockNumber": 879,
+      "gasUsed": "88526",
+      "gasCostWei": "885260",
+      "venue": 1,
+      "tokenIn": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB",
+      "amountIn": "2000000000000000000",
+      "amountOut": "1876929693748676053"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "transactionHash": "0x91292acf81f5df8b79d9a81d83ae8e16fde74a8464f9b1fe2c37175d81ceff0c",
+      "blockNumber": 880,
+      "gasUsed": "88538",
+      "gasCostWei": "885380",
+      "venue": 1,
+      "tokenIn": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB",
+      "amountIn": "5000000000000000000",
+      "amountOut": "4613973195105490225"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0x23618e81E3f5cdF7f54C3d65f7FBc0aBf5B21E8f",
+      "transactionHash": "0x2fe80bad89a5b545dd85d5de4694bbb96424bcfac5977ff332fbf6547492b24d",
+      "blockNumber": 881,
+      "gasUsed": "88708",
+      "gasCostWei": "887080",
+      "venue": 2,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "2000000000000000000",
+      "amountOut": "1695016848405782388"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0x1CBd3b2770909D4e10f157cABC84C7264073C9Ec",
+      "transactionHash": "0x2d05018376d90ba7aa5894b14b156c977aa18846a6c77188631452f3ce226649",
+      "blockNumber": 882,
+      "gasUsed": "88538",
+      "gasCostWei": "885380",
+      "venue": 1,
+      "tokenIn": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB",
+      "amountIn": "7000000000000000000",
+      "amountOut": "6277628848402736811"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "transactionHash": "0x1ba965dfbd1b4d475b307bb3a9b7679b9573bd1393651bea9e85b7c63dcfa59b",
+      "blockNumber": 883,
+      "gasUsed": "88538",
+      "gasCostWei": "885380",
+      "venue": 1,
+      "tokenIn": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB",
+      "amountIn": "6000000000000000000",
+      "amountOut": "5218870282292655313"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0x976EA74026E726554dB657fA54763abd0C3a0aa9",
+      "transactionHash": "0x1111bee8ccf05178baeb4f5aa12cb7d46a88679b54843518eaa10c28f360ebd4",
+      "blockNumber": 884,
+      "gasUsed": "88708",
+      "gasCostWei": "887080",
+      "venue": 2,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "8000000000000000000",
+      "amountOut": "6627353545560399664"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0x71bE63f3384f5fb98995898A86B02Fb2426c5788",
+      "transactionHash": "0xe6d24a15b43301f0fca91cb040650232bcbd60c8e6d7608430ce11eed30d4205",
+      "blockNumber": 885,
+      "gasUsed": "88538",
+      "gasCostWei": "885380",
+      "venue": 1,
+      "tokenIn": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB",
+      "amountIn": "3000000000000000000",
+      "amountOut": "2555417243169640333"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0xbDA5747bFD65F08deb54cb465eB87D40e51B197E",
+      "transactionHash": "0x6508b56092ff33f10f61ada2c07508b99b0b3aaeb196eaea376392123b5e14a8",
+      "blockNumber": 886,
+      "gasUsed": "88708",
+      "gasCostWei": "887080",
+      "venue": 2,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "4000000000000000000",
+      "amountOut": "3224791754004203775"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
+      "transactionHash": "0x43b7092f7dc0d58baa736ffbbd664f611cd30adacbfa45acf05c2d3897ca6245",
+      "blockNumber": 887,
+      "gasUsed": "88538",
+      "gasCostWei": "885380",
+      "venue": 1,
+      "tokenIn": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB",
+      "amountIn": "7000000000000000000",
+      "amountOut": "5827813211536620071"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0x14dC79964da2C08b23698B3D3cc7Ca32193d9955",
+      "transactionHash": "0x53e056aab0e5cb8a1008d0f5605aa80750908c9d539bd82d346a9b4bbe3dcc19",
+      "blockNumber": 888,
+      "gasUsed": "88708",
+      "gasCostWei": "887080",
+      "venue": 2,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "3000000000000000000",
+      "amountOut": "2381013059177805199"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0x90F79bf6EB2c4f870365E785982E1f101E93b906",
+      "transactionHash": "0x817726a52595b2c203f2fef2f8ebd02ba28141fc6cb3f3519ffe70ee22a94509",
+      "blockNumber": 889,
+      "gasUsed": "88538",
+      "gasCostWei": "885380",
+      "venue": 1,
+      "tokenIn": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB",
+      "amountIn": "6000000000000000000",
+      "amountOut": "4850296487744383413"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0xFABB0ac9d68B0B445fB7357272Ff202C5651694a",
+      "transactionHash": "0xc6f88bbf17c2a3ba975e63b918a45eb98d3c8f9bd5ce0d0caf5ce39041d082e9",
+      "blockNumber": 890,
+      "gasUsed": "88708",
+      "gasCostWei": "887080",
+      "venue": 1,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "3000000000000000000",
+      "amountOut": "3708037291066027061"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0xa0Ee7A142d267C1f36714E4a8F75612F20a79720",
+      "transactionHash": "0xd6ad26bb205d569cfd5d52060ad0e411824be7dab4cf7ac1ddf7114beb1764ca",
+      "blockNumber": 891,
+      "gasUsed": "88708",
+      "gasCostWei": "887080",
+      "venue": 2,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "4000000000000000000",
+      "amountOut": "3125810341647970873"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0xcd3B766CCDd6AE721141F452C550Ca635964ce71",
+      "transactionHash": "0x0d0795c87a1266775e83fc3d8fd5287d1041a38aa7879c5979b75766e45c98e6",
+      "blockNumber": 892,
+      "gasUsed": "88538",
+      "gasCostWei": "885380",
+      "venue": 1,
+      "tokenIn": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB",
+      "amountIn": "3000000000000000000",
+      "amountOut": "2416552621895436491"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0xdF3e18d64BC6A983f673Ab319CCaE4f1a57C7097",
+      "transactionHash": "0x0b155f981c30f761967ecbe6423b13a67a1b6cd406b256f17b9b7bbfedb35c58",
+      "blockNumber": 893,
+      "gasUsed": "88538",
+      "gasCostWei": "885380",
+      "venue": 1,
+      "tokenIn": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB",
+      "amountIn": "3000000000000000000",
+      "amountOut": "2384352986003810208"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0xBcd4042DE499D14e55001CcbB24a551F3b954096",
+      "transactionHash": "0x2dee9c1955c3ce063e0c0a418599437d4137513f84f92ebda72ef863aad157b2",
+      "blockNumber": 894,
+      "gasUsed": "88708",
+      "gasCostWei": "887080",
+      "venue": 2,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "2000000000000000000",
+      "amountOut": "1542357790540433202"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0x2546BcD3c84621e976D8185a91A922aE77ECEc30",
+      "transactionHash": "0x959c3f7fe59891d1b4e766ae0958119161e2875cbae92fd877a9845b9dce0767",
+      "blockNumber": 895,
+      "gasUsed": "88708",
+      "gasCostWei": "887080",
+      "venue": 1,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "1000000000000000000",
+      "amountOut": "1255549949692648711"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc",
+      "transactionHash": "0xcd90929a969158206bca2e638df4589401008599daff13db8b26661a8cc960fb",
+      "blockNumber": 896,
+      "gasUsed": "88708",
+      "gasCostWei": "887080",
+      "venue": 2,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "7000000000000000000",
+      "amountOut": "5293543010347578777"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0xdD2FD4581271e230360230F9337D5c0430Bf44C0",
+      "transactionHash": "0x1181294d11d20d55c69063ffdec32886b302f31e1fca87845fb20e2a8c37693e",
+      "blockNumber": 897,
+      "gasUsed": "88708",
+      "gasCostWei": "887080",
+      "venue": 2,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "2000000000000000000",
+      "amountOut": "1483182574526363938"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC",
+      "transactionHash": "0x1da15564cf703dbfd03dab32236306e1609f951caf6fa285e6d3e9399946035b",
+      "blockNumber": 898,
+      "gasUsed": "88538",
+      "gasCostWei": "885380",
+      "venue": 1,
+      "tokenIn": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB",
+      "amountIn": "3000000000000000000",
+      "amountOut": "2365964290092821685"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0x8626f6940E2eb28930eFb4CeF49B2d1F2C9C1199",
+      "transactionHash": "0xf80b98df4336c8880bf1d4956dc06ca4098c311b37e52112fb8a9e7ae9015414",
+      "blockNumber": 899,
+      "gasUsed": "88708",
+      "gasCostWei": "887080",
+      "venue": 2,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "5000000000000000000",
+      "amountOut": "3652839980235750288"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0x90F79bf6EB2c4f870365E785982E1f101E93b906",
+      "transactionHash": "0xdc421b4b7ded7d486962a3f3dd536f80570408c3d9c4907299d705c8fb29ce8b",
+      "blockNumber": 900,
+      "gasUsed": "88538",
+      "gasCostWei": "885380",
+      "venue": 1,
+      "tokenIn": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB",
+      "amountIn": "1000000000000000000",
+      "amountOut": "781686447141519314"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0x8626f6940E2eb28930eFb4CeF49B2d1F2C9C1199",
+      "transactionHash": "0x6e5686ce73230e292beea15b0ff0d04bc094adae2949dcdbdc8d1d1174070758",
+      "blockNumber": 901,
+      "gasUsed": "88538",
+      "gasCostWei": "885380",
+      "venue": 1,
+      "tokenIn": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB",
+      "amountIn": "6000000000000000000",
+      "amountOut": "4618675258233392856"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0x71bE63f3384f5fb98995898A86B02Fb2426c5788",
+      "transactionHash": "0xf77cd4cdbd76ee98622e5e5e748257a60727c8b2a1fb48a91ff06b86bb566b90",
+      "blockNumber": 902,
+      "gasUsed": "88538",
+      "gasCostWei": "885380",
+      "venue": 1,
+      "tokenIn": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB",
+      "amountIn": "7000000000000000000",
+      "amountOut": "5238166429189705628"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "transactionHash": "0xc6bf5a5d672a60774eedcb9f6abc268a0f4c731284eaa37b24d12d486b2302ea",
+      "blockNumber": 903,
+      "gasUsed": "88538",
+      "gasCostWei": "885380",
+      "venue": 1,
+      "tokenIn": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB",
+      "amountIn": "4000000000000000000",
+      "amountOut": "2923164518975493368"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0xdF3e18d64BC6A983f673Ab319CCaE4f1a57C7097",
+      "transactionHash": "0x7a983a4ff0dea2ccad125ac876d1d50b7a04e1b90b6ba0196a4c984e21e4de5f",
+      "blockNumber": 904,
+      "gasUsed": "88708",
+      "gasCostWei": "887080",
+      "venue": 1,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "7000000000000000000",
+      "amountOut": "9410577012278136953"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0x976EA74026E726554dB657fA54763abd0C3a0aa9",
+      "transactionHash": "0xd4c25a9c99c209302d418c60df1588c3c31a20e3533d2cab3c8fa67729223cd3",
+      "blockNumber": 905,
+      "gasUsed": "88708",
+      "gasCostWei": "887080",
+      "venue": 2,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "5000000000000000000",
+      "amountOut": "3576039772562403828"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0xFABB0ac9d68B0B445fB7357272Ff202C5651694a",
+      "transactionHash": "0x445ea1e3326175301ec6ee03db93f7727aee6e79fa23ac3fe5bcaa7af6add307",
+      "blockNumber": 906,
+      "gasUsed": "88538",
+      "gasCostWei": "885380",
+      "venue": 1,
+      "tokenIn": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB",
+      "amountIn": "4000000000000000000",
+      "amountOut": "2992297913275179784"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "transactionHash": "0x2f7423964bdec8bfc779eefca8c0dd39652309ec8f6b0b0d1164b030ea009a10",
+      "blockNumber": 907,
+      "gasUsed": "88538",
+      "gasCostWei": "885380",
+      "venue": 2,
+      "tokenIn": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB",
+      "amountIn": "6000000000000000000",
+      "amountOut": "8280693084490970240"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0x14dC79964da2C08b23698B3D3cc7Ca32193d9955",
+      "transactionHash": "0x2d6edba0ae723381a1ea1c555d21caefc55a6c068d02c7cc150feafff071ccb8",
+      "blockNumber": 908,
+      "gasUsed": "88708",
+      "gasCostWei": "887080",
+      "venue": 2,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "8000000000000000000",
+      "amountOut": "5765890127592930627"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0x2546BcD3c84621e976D8185a91A922aE77ECEc30",
+      "transactionHash": "0x91105d7cd3270f693ced68e96f9c4c9a4d8509b2120447ef964e8547a0a8eef7",
+      "blockNumber": 909,
+      "gasUsed": "88708",
+      "gasCostWei": "887080",
+      "venue": 2,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "3000000000000000000",
+      "amountOut": "2112454175262461824"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc",
+      "transactionHash": "0x0e5045703fb464f99820ca2041ff8ea4f3644be8d0c9ab3543469a6a4241ec61",
+      "blockNumber": 910,
+      "gasUsed": "88538",
+      "gasCostWei": "885380",
+      "venue": 2,
+      "tokenIn": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB",
+      "amountIn": "8000000000000000000",
+      "amountOut": "11100399141654089396"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0xcd3B766CCDd6AE721141F452C550Ca635964ce71",
+      "transactionHash": "0xc2a5eb781a7d6bb0f9a170bb4f1a2ea499b46cd346c3fac9a570daae179ea4de",
+      "blockNumber": 911,
+      "gasUsed": "88538",
+      "gasCostWei": "885380",
+      "venue": 1,
+      "tokenIn": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB",
+      "amountIn": "4000000000000000000",
+      "amountOut": "2941218771636915488"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0xBcd4042DE499D14e55001CcbB24a551F3b954096",
+      "transactionHash": "0x12a1cd8300389ffcbb69275e39c74f3ba01dd7629108fd14fc025a5ee2fe382a",
+      "blockNumber": 912,
+      "gasUsed": "88538",
+      "gasCostWei": "885380",
+      "venue": 1,
+      "tokenIn": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB",
+      "amountIn": "2000000000000000000",
+      "amountOut": "1451852660048384422"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0x1CBd3b2770909D4e10f157cABC84C7264073C9Ec",
+      "transactionHash": "0xc6127b20a16af9b120fc2c3159981ed63f2dfd50b305855a3bb56d2d76968a91",
+      "blockNumber": 913,
+      "gasUsed": "88708",
+      "gasCostWei": "887080",
+      "venue": 1,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "7000000000000000000",
+      "amountOut": "9432837510201366042"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0xbDA5747bFD65F08deb54cb465eB87D40e51B197E",
+      "transactionHash": "0xf8d0425f732b221fa74b3121c6bcff6f18c7d11a4451940ba8099440a09771df",
+      "blockNumber": 914,
+      "gasUsed": "88708",
+      "gasCostWei": "887080",
+      "venue": 2,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "3000000000000000000",
+      "amountOut": "2186401747679820480"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0x23618e81E3f5cdF7f54C3d65f7FBc0aBf5B21E8f",
+      "transactionHash": "0xa1dec0a228743bf45f63f686ae559c572d4f27580d5b4e7e463a75d647f7e1ad",
+      "blockNumber": 915,
+      "gasUsed": "88538",
+      "gasCostWei": "885380",
+      "venue": 1,
+      "tokenIn": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB",
+      "amountIn": "6000000000000000000",
+      "amountOut": "4458863598874927624"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0xdD2FD4581271e230360230F9337D5c0430Bf44C0",
+      "transactionHash": "0x83c16edfa05f7d81cccb0ca84e26585a7c2a5f8f2007dd0ae5ca1203eecd7980",
+      "blockNumber": 916,
+      "gasUsed": "88708",
+      "gasCostWei": "887080",
+      "venue": 2,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "4000000000000000000",
+      "amountOut": "2872182635129388146"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0xa0Ee7A142d267C1f36714E4a8F75612F20a79720",
+      "transactionHash": "0xba55d18d0fdd2d6ea4dc63fec6517dbf09b77a78d30af3c8b6d50ba476632d03",
+      "blockNumber": 917,
+      "gasUsed": "88708",
+      "gasCostWei": "887080",
+      "venue": 2,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "4000000000000000000",
+      "amountOut": "2824138239743030309"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC",
+      "transactionHash": "0xef6691a913078c9a24b225d79c91995cc6ef9499f4b4ce7c6b9772fe2129cbd8",
+      "blockNumber": 918,
+      "gasUsed": "88538",
+      "gasCostWei": "885380",
+      "venue": 1,
+      "tokenIn": "0x36b58F5C1969B7b6591D752ea6F5486D069010AB",
+      "amountIn": "1000000000000000000",
+      "amountOut": "732022031550560445"
+    },
+    {
+      "action": "marketSwap",
+      "user": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
+      "transactionHash": "0x3daf1cb2f7a951c488bd489fe9d33cb21f6e839f1fd932064f64406feb0f8cfd",
+      "blockNumber": 919,
+      "gasUsed": "88708",
+      "gasCostWei": "887080",
+      "venue": 1,
+      "tokenIn": "0x51A1ceB83B83F1985a81C295d1fF28Afef186E02",
+      "amountIn": "2000000000000000000",
+      "amountOut": "2705859581429883703"
+    },
+    {
+      "action": "approveArbitrage",
+      "user": "0x8626f6940E2eb28930eFb4CeF49B2d1F2C9C1199",
+      "transactionHash": "0xa972ae390f625ccb0183ba13272338cf67bea3be5753ea6bc0d1e88bb79bfbb3",
+      "blockNumber": 920,
+      "gasUsed": "45993",
+      "gasCostWei": "459930"
+    },
+    {
+      "action": "arbitrage",
+      "user": "0x8626f6940E2eb28930eFb4CeF49B2d1F2C9C1199",
+      "transactionHash": "0x4cbe50fe2cd9666e10bd5c7efd56c98d2596f20a1f1c74710e09d63e225673b8",
+      "blockNumber": 921,
+      "gasUsed": "241752",
+      "gasCostWei": "2417520"
+    }
+  ]
+}

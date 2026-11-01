@@ -1,0 +1,11 @@
+{
+  "result": "passed",
+  "venueSwitch": "passed",
+  "walletAdapter": "local EIP-1193; not MetaMask",
+  "transactionHash": "0x683d4c4d804275b07d95e92124ba6fa0aa4aff3a55d8da7078f1119f9fc7fb8e",
+  "profit": "1.125534148475422841",
+  "token": "TKA",
+  "twoSwapsInOneTransaction": true,
+  "mobileOverflow": false,
+  "pageErrors": []
+}
