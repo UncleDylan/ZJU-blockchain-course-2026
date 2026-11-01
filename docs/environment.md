@@ -11,6 +11,17 @@
 
 ## 安装依赖
 
+依赖已安装时，重启后的服务恢复可在 Windows PowerShell 中执行：
+
+```powershell
+cd 'E:\VMware Shared Folder\Blockchain\hw2\ZJU-blockchain-course-2026'
+powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\start-dev.ps1
+```
+
+先启动 Ubuntu 虚拟机，脚本会等待 SSH，检查并启动本地链和前端；部署配置或合约缺失时重新部署两种代币、双交易所与套利合约，已有部署则保留。随后启动 Windows RPC 隧道，使用网页期间保持该终端开启。脚本不自动领币、建池、添加流动性或运行模拟。本地链重启后旧交易和领取记录会丢失，需要重新准备演示数据。
+
+启动检查失败时脚本停止并显示原因，不会强制结束占用端口的进程。Ubuntu 日志为 `/tmp/blockchain-hw2-node.log` 和 `/tmp/blockchain-hw2-frontend.log`。
+
 在 Ubuntu 的项目根目录执行：
 
 ```bash

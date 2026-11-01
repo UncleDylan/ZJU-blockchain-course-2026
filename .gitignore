@@ -1,0 +1,21 @@
+/tmp/
+/output/
+__pycache__/
+*.log
+
+# Personal recording notes and helpers stay on this machine.
+/docs/recording-guide.*
+/tools/build-recording-guide.py
+/tools/reset-recording.sh
+/tools/prepare-recording-bonus.sh
+/contracts/scripts/fundDemoWallet.ts
+
+# Keep the curated report referenced by the project documentation.
+/docs/bonus-runs/*.json
+!/docs/bonus-runs/1793264301350-20261029.json
+
+# Submit the demo video separately from the source repository.
+*.mp4
+*.webm
+*.mkv
+*.mov

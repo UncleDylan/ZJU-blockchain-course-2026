@@ -31,6 +31,8 @@
 
 ## 如何运行
 
+已安装依赖时，先启动 Ubuntu 虚拟机，再在 Windows 项目根目录执行 `powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\start-dev.ps1`。脚本恢复本地链、必要的部署与前端，并保持钱包 RPC 隧道；使用期间不要关闭终端。详细行为见 [环境说明](docs/environment.md)。首次安装或手动启动按以下步骤进行。
+
 VMware 共享目录下，先在 Ubuntu 的项目根目录安装依赖：
 
 ```bash
